@@ -1,7 +1,7 @@
 {
   "name": "bun-kv-store",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic key-value store made with the purpose of checking out Bun.",
   "main": "index.ts",
   "scripts": {
     "start": "bun index.ts"

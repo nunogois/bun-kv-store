@@ -16,7 +16,7 @@ export const router = async (
   const endpoint = `/${pathname.split('/')[1]}`
 
   // TODO: Refactor this to be more generic later?
-  req.param = pathname.split(endpoint)[1] || undefined
+  req.param = pathname.split(endpoint)[1].replace('/', '') || undefined
 
   const route = routes[endpoint][method || 'DELETE'] // TODO: Why is method falsy when DELETE?
   if (route) {

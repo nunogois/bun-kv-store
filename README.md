@@ -22,3 +22,7 @@ You could technically generate a random and secure key to store your data, like 
 **Even though you can delete the data you store at anytime, you should not store private or sensitive information in this store, unless you're hosting it yourself and know what you're doing.**
 
 **Data in this store is solely the responsibility of its owners and can be lost at anytime.**
+
+## Authentication
+
+If you would like to enable authentication, you can create a `tòkens.json` with an array of tokens to be used. Each token will use its own store.

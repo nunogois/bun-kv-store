@@ -25,4 +25,4 @@ You could technically generate a random and secure key to store your data, like 
 
 ## Authentication
 
-If you would like to enable authentication, you can create a `tòkens.json` with an array of tokens to be used. Each token will use its own store.
+If you would like to enable authentication, you can create a `tokens.json` file at the root of the project with an array of tokens to be used. You will need to send one of them as a Bearer token and each of them will use its own store.

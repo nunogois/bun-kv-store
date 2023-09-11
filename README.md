@@ -1,5 +1,7 @@
 # bun-kv-store
 
+> **Archived.** Check out https://github.com/nunogois/bun-kiwi instead for a Bun 1.0 version.
+
 A basic key-value store made with the purpose of checking out Bun.
 
 Includes a very basic custom router.
